@@ -10,7 +10,7 @@ public class Main {
     System.out.println("Является ли транспорт наземным: " + motorcycle.isGround());
     System.out.println("Колличество колес: " + motorcycle.getWheelsCount());
 
-    Car car = new Car(true, 4);
+    Car car = new Car(true, 6);
     System.out.println("Является ли транспорт наземным: " + car.isGround());
     System.out.println("Колличество колес: " + car.getWheelsCount());
 
